@@ -1,0 +1,374 @@
+* {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+nav {
+
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 205, 205, 0.338)
+}
+
+nav div {
+    width: 75%;
+    background-color: rgb(106, 94, 94);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 1px;
+
+
+
+}
+
+nav div h1 {
+    letter-spacing: 1px;
+
+}
+
+nav div ul {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+
+nav div ul li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+
+}
+
+nav div ul li a:hover {
+    color: red;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+header .container {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.subtitle {
+    padding: 0;
+    margin: 0;
+}
+
+.title {
+    padding: 0;
+    margin: 0;
+}
+
+.title-name {
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+}
+
+.dev {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.bio {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    color: grey;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.action {
+    display: flex;
+    column-gap: 8px;
+}
+
+.action button {
+    padding-left: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 20px;
+    border-radius: 5px;
+
+}
+
+.work-btn {
+    background-color: red;
+    color: white;
+    border-style: none;
+    font-size: 16px;
+}
+
+.hire-btn {
+    background-color: white;
+    color: red;
+    border-width: 3px;
+    border-style: solid;
+    border-color: red;
+    font-size: 16px;
+}
+
+.work-btn:hover {
+    background-color: grey;
+    color: white;
+}
+
+.hire-btn:hover {
+    background-color: red;
+    color: white;
+}
+
+.about-me {
+    background-color: #eaedf2;
+    display: flex;
+    justify-content: center;
+    padding-top: 58px;
+    padding-bottom: 58px;
+}
+
+.about-me .container {
+    width: 75%;
+}
+
+.about-me h1 {
+    padding: 0%;
+    margin-bottom: 0%;
+}
+
+.about-me p {
+    letter-spacing: 2px;
+    color: gray;
+}
+
+.about-img-box {
+    display: flex;
+    gap: 48px;
+    margin-top: 48px;
+    align-items: center;
+}
+
+.img-box {
+    background-color: white;
+    padding: 14px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.social-box {
+    width: 48px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 0px;
+    background-color: white;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    align-items: center;
+}
+
+.social-box button {
+    width: 32px;
+    height: 32px;
+    border-style: none;
+    background-color: red;
+    color: white;
+    margin: 2px;
+    border-radius: 5px;
+
+}
+
+.social-box button:hover {
+    background-color: black;
+}
+
+.pers-info {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.pers-info .label {
+    display: flex;
+    align-items: center;
+
+}
+
+.pers-info .label h5 {
+    border-right-width: 1px;
+    border-right-color: gray;
+    border-right-style: solid;
+    padding-right: 30px;
+    margin-right: 40px;
+    font-weight: 500;
+}
+
+.dwn {
+    border-style: none;
+    background-color: red;
+    color: white;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 28px;
+    padding-right: 28px;
+    margin-top: 24px;
+
+
+
+
+}
+
+.skill {
+    padding-top: 58px;
+    padding-bottom: 58px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.skill .container {
+    width: 75%;
+}
+
+.skill-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 48px;
+
+}
+
+.skill .card {
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px 0 grey;
+    /* font-size: 20px; */
+
+}
+
+.skill .card-box {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    width: 50%;
+    align-items: center;
+}
+
+.p-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.percentage {
+    width: 50%;
+}
+
+.p-main {
+    height: 6px;
+    background-color: grey;
+}
+
+.p-92 {
+    width: 92%;
+    background-color: red;
+    height: 100%;
+}
+
+.p-80 {
+    width: 80%;
+    background-color: red;
+    height: 100%;
+}
+
+.p-50 {
+    width: 50%;
+    background-color: red;
+    height: 100%;
+}
+
+.p-70 {
+    width: 70%;
+    background-color: red;
+    height: 100%;
+}
+
+.percent-all {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+
+}
+
+.services {
+    background-color: #eaedf2;
+    display: flex;
+    justify-content: center;
+    padding-top: 58px;
+    padding-bottom: 58px;
+
+}
+
+.services .container {
+    width: 75%;
+}
+
+.services-box {
+    margin-top: 48px;
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.services-box .card {
+    background-color: white;
+    padding: 24px;
+    border-radius: 10px;
+    width: 24%;
+}
+
+.services-box .card:hover {
+    background-color: red;
+}
+
+.services-box .card button {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    border-style: dotted;
+    border-color: red;
+    border-width: 2px;
+    background-color: white;
+    font-size: 24px;
+    color: red;
+}
