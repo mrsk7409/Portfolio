@@ -5,6 +5,7 @@
 body {
     margin: 0%;
     padding: 0%;
+    
 }
 
 nav {
@@ -16,7 +17,6 @@ nav {
 
 nav div {
     width: 75%;
-    background-color: rgb(106, 94, 94);
     display: flex;
     justify-content: space-between;
     align-items: center;
